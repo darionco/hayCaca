@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3067F031715384600FB6E63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3067F021715384600FB6E63 /* UIKit.framework */; };
+		A3067F051715384600FB6E63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3067F041715384600FB6E63 /* Foundation.framework */; };
+		A3067F071715384600FB6E63 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3067F061715384600FB6E63 /* CoreGraphics.framework */; };
+		A3067F0D1715384600FB6E63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3067F0B1715384600FB6E63 /* InfoPlist.strings */; };
+		A3067F0F1715384600FB6E63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3067F0E1715384600FB6E63 /* main.m */; };
+		A3067F131715384600FB6E63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3067F121715384600FB6E63 /* AppDelegate.m */; };
+		A3067F151715384600FB6E63 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A3067F141715384600FB6E63 /* Default.png */; };
+		A3067F171715384600FB6E63 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3067F161715384600FB6E63 /* Default@2x.png */; };
+		A3067F191715384600FB6E63 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3067F181715384600FB6E63 /* Default-568h@2x.png */; };
+		A3067F54171538BA00FB6E63 /* attr.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F21171538BA00FB6E63 /* attr.c */; };
+		A3067F55171538BA00FB6E63 /* box.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F22171538BA00FB6E63 /* box.c */; };
+		A3067F56171538BA00FB6E63 /* caca.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F23171538BA00FB6E63 /* caca.c */; };
+		A3067F57171538BA00FB6E63 /* caca0.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F25171538BA00FB6E63 /* caca0.c */; };
+		A3067F58171538BA00FB6E63 /* caca_conio.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F27171538BA00FB6E63 /* caca_conio.c */; };
+		A3067F59171538BA00FB6E63 /* canvas.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F2E171538BA00FB6E63 /* canvas.c */; };
+		A3067F5A171538BA00FB6E63 /* charset.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F2F171538BA00FB6E63 /* charset.c */; };
+		A3067F5B171538BA00FB6E63 /* export.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F32171538BA00FB6E63 /* export.c */; };
+		A3067F5C171538BA00FB6E63 /* import.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F33171538BA00FB6E63 /* import.c */; };
+		A3067F5D171538BA00FB6E63 /* text.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F34171538BA00FB6E63 /* text.c */; };
+		A3067F5E171538BA00FB6E63 /* conic.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F36171538BA00FB6E63 /* conic.c */; };
+		A3067F5F171538BA00FB6E63 /* dirty.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F37171538BA00FB6E63 /* dirty.c */; };
+		A3067F60171538BA00FB6E63 /* dither.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F38171538BA00FB6E63 /* dither.c */; };
+		A3067F61171538BA00FB6E63 /* cocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = A3067F3A171538BA00FB6E63 /* cocoa.m */; };
+		A3067F62171538BA00FB6E63 /* conio.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F3B171538BA00FB6E63 /* conio.c */; };
+		A3067F63171538BA00FB6E63 /* gl.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F3C171538BA00FB6E63 /* gl.c */; };
+		A3067F64171538BA00FB6E63 /* ncurses.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F3D171538BA00FB6E63 /* ncurses.c */; };
+		A3067F65171538BA00FB6E63 /* null.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F3E171538BA00FB6E63 /* null.c */; };
+		A3067F66171538BA00FB6E63 /* raw.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F3F171538BA00FB6E63 /* raw.c */; };
+		A3067F67171538BA00FB6E63 /* slang.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F40171538BA00FB6E63 /* slang.c */; };
+		A3067F68171538BA00FB6E63 /* vga.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F41171538BA00FB6E63 /* vga.c */; };
+		A3067F69171538BA00FB6E63 /* win32.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F42171538BA00FB6E63 /* win32.c */; };
+		A3067F6A171538BA00FB6E63 /* x11.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F43171538BA00FB6E63 /* x11.c */; };
+		A3067F6B171538BA00FB6E63 /* event.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F44171538BA00FB6E63 /* event.c */; };
+		A3067F6C171538BA00FB6E63 /* figfont.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F45171538BA00FB6E63 /* figfont.c */; };
+		A3067F6D171538BA00FB6E63 /* file.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F46171538BA00FB6E63 /* file.c */; };
+		A3067F6E171538BA00FB6E63 /* font.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F47171538BA00FB6E63 /* font.c */; };
+		A3067F6F171538BA00FB6E63 /* frame.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F48171538BA00FB6E63 /* frame.c */; };
+		A3067F70171538BA00FB6E63 /* getopt.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F49171538BA00FB6E63 /* getopt.c */; };
+		A3067F71171538BA00FB6E63 /* graphics.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F4A171538BA00FB6E63 /* graphics.c */; };
+		A3067F72171538BA00FB6E63 /* legacy.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F4B171538BA00FB6E63 /* legacy.c */; };
+		A3067F73171538BA00FB6E63 /* line.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F4C171538BA00FB6E63 /* line.c */; };
+		A3067F74171538BA00FB6E63 /* mono9.data in Resources */ = {isa = PBXBuildFile; fileRef = A3067F4D171538BA00FB6E63 /* mono9.data */; };
+		A3067F75171538BA00FB6E63 /* monobold12.data in Resources */ = {isa = PBXBuildFile; fileRef = A3067F4E171538BA00FB6E63 /* monobold12.data */; };
+		A3067F76171538BA00FB6E63 /* prof.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F4F171538BA00FB6E63 /* prof.c */; };
+		A3067F77171538BA00FB6E63 /* string.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F50171538BA00FB6E63 /* string.c */; };
+		A3067F78171538BA00FB6E63 /* time.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F51171538BA00FB6E63 /* time.c */; };
+		A3067F79171538BA00FB6E63 /* transform.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F52171538BA00FB6E63 /* transform.c */; };
+		A3067F7A171538BA00FB6E63 /* triangle.c in Sources */ = {isa = PBXBuildFile; fileRef = A3067F53171538BA00FB6E63 /* triangle.c */; };
+		A3067F7C171538D700FB6E63 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A3067F7B171538D700FB6E63 /* libz.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A3067EFF1715384600FB6E63 /* hayCaca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hayCaca.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3067F021715384600FB6E63 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A3067F041715384600FB6E63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A3067F061715384600FB6E63 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A3067F0A1715384600FB6E63 /* hayCaca-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hayCaca-Info.plist"; sourceTree = "<group>"; };
+		A3067F0C1715384600FB6E63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A3067F0E1715384600FB6E63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3067F101715384600FB6E63 /* hayCaca-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hayCaca-Prefix.pch"; sourceTree = "<group>"; };
+		A3067F111715384600FB6E63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3067F121715384600FB6E63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3067F141715384600FB6E63 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A3067F161715384600FB6E63 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A3067F181715384600FB6E63 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A3067F21171538BA00FB6E63 /* attr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = attr.c; sourceTree = "<group>"; };
+		A3067F22171538BA00FB6E63 /* box.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = box.c; sourceTree = "<group>"; };
+		A3067F23171538BA00FB6E63 /* caca.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = caca.c; sourceTree = "<group>"; };
+		A3067F24171538BA00FB6E63 /* caca.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = caca.h; sourceTree = "<group>"; };
+		A3067F25171538BA00FB6E63 /* caca0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = caca0.c; sourceTree = "<group>"; };
+		A3067F26171538BA00FB6E63 /* caca0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = caca0.h; sourceTree = "<group>"; };
+		A3067F27171538BA00FB6E63 /* caca_conio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = caca_conio.c; sourceTree = "<group>"; };
+		A3067F28171538BA00FB6E63 /* caca_conio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = caca_conio.h; sourceTree = "<group>"; };
+		A3067F29171538BA00FB6E63 /* caca_debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = caca_debug.h; sourceTree = "<group>"; };
+		A3067F2A171538BA00FB6E63 /* caca_internals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = caca_internals.h; sourceTree = "<group>"; };
+		A3067F2B171538BA00FB6E63 /* caca_prof.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = caca_prof.h; sourceTree = "<group>"; };
+		A3067F2C171538BA00FB6E63 /* caca_stubs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = caca_stubs.h; sourceTree = "<group>"; };
+		A3067F2D171538BA00FB6E63 /* caca_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = caca_types.h; sourceTree = "<group>"; };
+		A3067F2E171538BA00FB6E63 /* canvas.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = canvas.c; sourceTree = "<group>"; };
+		A3067F2F171538BA00FB6E63 /* charset.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = charset.c; sourceTree = "<group>"; };
+		A3067F31171538BA00FB6E63 /* codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = codec.h; sourceTree = "<group>"; };
+		A3067F32171538BA00FB6E63 /* export.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = export.c; sourceTree = "<group>"; };
+		A3067F33171538BA00FB6E63 /* import.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = import.c; sourceTree = "<group>"; };
+		A3067F34171538BA00FB6E63 /* text.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = text.c; sourceTree = "<group>"; };
+		A3067F35171538BA00FB6E63 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		A3067F36171538BA00FB6E63 /* conic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = conic.c; sourceTree = "<group>"; };
+		A3067F37171538BA00FB6E63 /* dirty.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dirty.c; sourceTree = "<group>"; };
+		A3067F38171538BA00FB6E63 /* dither.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dither.c; sourceTree = "<group>"; };
+		A3067F3A171538BA00FB6E63 /* cocoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cocoa.m; sourceTree = "<group>"; };
+		A3067F3B171538BA00FB6E63 /* conio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = conio.c; sourceTree = "<group>"; };
+		A3067F3C171538BA00FB6E63 /* gl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gl.c; sourceTree = "<group>"; };
+		A3067F3D171538BA00FB6E63 /* ncurses.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ncurses.c; sourceTree = "<group>"; };
+		A3067F3E171538BA00FB6E63 /* null.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = null.c; sourceTree = "<group>"; };
+		A3067F3F171538BA00FB6E63 /* raw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = raw.c; sourceTree = "<group>"; };
+		A3067F40171538BA00FB6E63 /* slang.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = slang.c; sourceTree = "<group>"; };
+		A3067F41171538BA00FB6E63 /* vga.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vga.c; sourceTree = "<group>"; };
+		A3067F42171538BA00FB6E63 /* win32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = win32.c; sourceTree = "<group>"; };
+		A3067F43171538BA00FB6E63 /* x11.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = x11.c; sourceTree = "<group>"; };
+		A3067F44171538BA00FB6E63 /* event.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = event.c; sourceTree = "<group>"; };
+		A3067F45171538BA00FB6E63 /* figfont.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = figfont.c; sourceTree = "<group>"; };
+		A3067F46171538BA00FB6E63 /* file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = file.c; sourceTree = "<group>"; };
+		A3067F47171538BA00FB6E63 /* font.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = font.c; sourceTree = "<group>"; };
+		A3067F48171538BA00FB6E63 /* frame.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = frame.c; sourceTree = "<group>"; };
+		A3067F49171538BA00FB6E63 /* getopt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getopt.c; sourceTree = "<group>"; };
+		A3067F4A171538BA00FB6E63 /* graphics.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = graphics.c; sourceTree = "<group>"; };
+		A3067F4B171538BA00FB6E63 /* legacy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = legacy.c; sourceTree = "<group>"; };
+		A3067F4C171538BA00FB6E63 /* line.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = line.c; sourceTree = "<group>"; };
+		A3067F4D171538BA00FB6E63 /* mono9.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mono9.data; sourceTree = "<group>"; };
+		A3067F4E171538BA00FB6E63 /* monobold12.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = monobold12.data; sourceTree = "<group>"; };
+		A3067F4F171538BA00FB6E63 /* prof.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prof.c; sourceTree = "<group>"; };
+		A3067F50171538BA00FB6E63 /* string.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = string.c; sourceTree = "<group>"; };
+		A3067F51171538BA00FB6E63 /* time.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = time.c; sourceTree = "<group>"; };
+		A3067F52171538BA00FB6E63 /* transform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = transform.c; sourceTree = "<group>"; };
+		A3067F53171538BA00FB6E63 /* triangle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = triangle.c; sourceTree = "<group>"; };
+		A3067F7B171538D700FB6E63 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3067EFC1715384600FB6E63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3067F7C171538D700FB6E63 /* libz.dylib in Frameworks */,
+				A3067F031715384600FB6E63 /* UIKit.framework in Frameworks */,
+				A3067F051715384600FB6E63 /* Foundation.framework in Frameworks */,
+				A3067F071715384600FB6E63 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3067EF61715384500FB6E63 = {
+			isa = PBXGroup;
+			children = (
+				A3067F7B171538D700FB6E63 /* libz.dylib */,
+				A3067F081715384600FB6E63 /* hayCaca */,
+				A3067F011715384600FB6E63 /* Frameworks */,
+				A3067F001715384600FB6E63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3067F001715384600FB6E63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3067EFF1715384600FB6E63 /* hayCaca.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3067F011715384600FB6E63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3067F021715384600FB6E63 /* UIKit.framework */,
+				A3067F041715384600FB6E63 /* Foundation.framework */,
+				A3067F061715384600FB6E63 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3067F081715384600FB6E63 /* hayCaca */ = {
+			isa = PBXGroup;
+			children = (
+				A3067F1F171538BA00FB6E63 /* caca */,
+				A3067F111715384600FB6E63 /* AppDelegate.h */,
+				A3067F121715384600FB6E63 /* AppDelegate.m */,
+				A3067F091715384600FB6E63 /* Supporting Files */,
+			);
+			path = hayCaca;
+			sourceTree = "<group>";
+		};
+		A3067F091715384600FB6E63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3067F0A1715384600FB6E63 /* hayCaca-Info.plist */,
+				A3067F0B1715384600FB6E63 /* InfoPlist.strings */,
+				A3067F0E1715384600FB6E63 /* main.m */,
+				A3067F101715384600FB6E63 /* hayCaca-Prefix.pch */,
+				A3067F141715384600FB6E63 /* Default.png */,
+				A3067F161715384600FB6E63 /* Default@2x.png */,
+				A3067F181715384600FB6E63 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3067F1F171538BA00FB6E63 /* caca */ = {
+			isa = PBXGroup;
+			children = (
+				A3067F20171538BA00FB6E63 /* .deps */,
+				A3067F21171538BA00FB6E63 /* attr.c */,
+				A3067F22171538BA00FB6E63 /* box.c */,
+				A3067F23171538BA00FB6E63 /* caca.c */,
+				A3067F24171538BA00FB6E63 /* caca.h */,
+				A3067F25171538BA00FB6E63 /* caca0.c */,
+				A3067F26171538BA00FB6E63 /* caca0.h */,
+				A3067F27171538BA00FB6E63 /* caca_conio.c */,
+				A3067F28171538BA00FB6E63 /* caca_conio.h */,
+				A3067F29171538BA00FB6E63 /* caca_debug.h */,
+				A3067F2A171538BA00FB6E63 /* caca_internals.h */,
+				A3067F2B171538BA00FB6E63 /* caca_prof.h */,
+				A3067F2C171538BA00FB6E63 /* caca_stubs.h */,
+				A3067F2D171538BA00FB6E63 /* caca_types.h */,
+				A3067F2E171538BA00FB6E63 /* canvas.c */,
+				A3067F2F171538BA00FB6E63 /* charset.c */,
+				A3067F30171538BA00FB6E63 /* codec */,
+				A3067F35171538BA00FB6E63 /* config.h */,
+				A3067F36171538BA00FB6E63 /* conic.c */,
+				A3067F37171538BA00FB6E63 /* dirty.c */,
+				A3067F38171538BA00FB6E63 /* dither.c */,
+				A3067F39171538BA00FB6E63 /* driver */,
+				A3067F44171538BA00FB6E63 /* event.c */,
+				A3067F45171538BA00FB6E63 /* figfont.c */,
+				A3067F46171538BA00FB6E63 /* file.c */,
+				A3067F47171538BA00FB6E63 /* font.c */,
+				A3067F48171538BA00FB6E63 /* frame.c */,
+				A3067F49171538BA00FB6E63 /* getopt.c */,
+				A3067F4A171538BA00FB6E63 /* graphics.c */,
+				A3067F4B171538BA00FB6E63 /* legacy.c */,
+				A3067F4C171538BA00FB6E63 /* line.c */,
+				A3067F4D171538BA00FB6E63 /* mono9.data */,
+				A3067F4E171538BA00FB6E63 /* monobold12.data */,
+				A3067F4F171538BA00FB6E63 /* prof.c */,
+				A3067F50171538BA00FB6E63 /* string.c */,
+				A3067F51171538BA00FB6E63 /* time.c */,
+				A3067F52171538BA00FB6E63 /* transform.c */,
+				A3067F53171538BA00FB6E63 /* triangle.c */,
+			);
+			path = caca;
+			sourceTree = "<group>";
+		};
+		A3067F20171538BA00FB6E63 /* .deps */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = .deps;
+			sourceTree = "<group>";
+		};
+		A3067F30171538BA00FB6E63 /* codec */ = {
+			isa = PBXGroup;
+			children = (
+				A3067F31171538BA00FB6E63 /* codec.h */,
+				A3067F32171538BA00FB6E63 /* export.c */,
+				A3067F33171538BA00FB6E63 /* import.c */,
+				A3067F34171538BA00FB6E63 /* text.c */,
+			);
+			path = codec;
+			sourceTree = "<group>";
+		};
+		A3067F39171538BA00FB6E63 /* driver */ = {
+			isa = PBXGroup;
+			children = (
+				A3067F3A171538BA00FB6E63 /* cocoa.m */,
+				A3067F3B171538BA00FB6E63 /* conio.c */,
+				A3067F3C171538BA00FB6E63 /* gl.c */,
+				A3067F3D171538BA00FB6E63 /* ncurses.c */,
+				A3067F3E171538BA00FB6E63 /* null.c */,
+				A3067F3F171538BA00FB6E63 /* raw.c */,
+				A3067F40171538BA00FB6E63 /* slang.c */,
+				A3067F41171538BA00FB6E63 /* vga.c */,
+				A3067F42171538BA00FB6E63 /* win32.c */,
+				A3067F43171538BA00FB6E63 /* x11.c */,
+			);
+			path = driver;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3067EFE1715384600FB6E63 /* hayCaca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3067F1C1715384600FB6E63 /* Build configuration list for PBXNativeTarget "hayCaca" */;
+			buildPhases = (
+				A3067EFB1715384600FB6E63 /* Sources */,
+				A3067EFC1715384600FB6E63 /* Frameworks */,
+				A3067EFD1715384600FB6E63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hayCaca;
+			productName = hayCaca;
+			productReference = A3067EFF1715384600FB6E63 /* hayCaca.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3067EF71715384500FB6E63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Dario Segura";
+			};
+			buildConfigurationList = A3067EFA1715384500FB6E63 /* Build configuration list for PBXProject "hayCaca" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A3067EF61715384500FB6E63;
+			productRefGroup = A3067F001715384600FB6E63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3067EFE1715384600FB6E63 /* hayCaca */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3067EFD1715384600FB6E63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3067F0D1715384600FB6E63 /* InfoPlist.strings in Resources */,
+				A3067F151715384600FB6E63 /* Default.png in Resources */,
+				A3067F171715384600FB6E63 /* Default@2x.png in Resources */,
+				A3067F191715384600FB6E63 /* Default-568h@2x.png in Resources */,
+				A3067F74171538BA00FB6E63 /* mono9.data in Resources */,
+				A3067F75171538BA00FB6E63 /* monobold12.data in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3067EFB1715384600FB6E63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3067F0F1715384600FB6E63 /* main.m in Sources */,
+				A3067F131715384600FB6E63 /* AppDelegate.m in Sources */,
+				A3067F54171538BA00FB6E63 /* attr.c in Sources */,
+				A3067F55171538BA00FB6E63 /* box.c in Sources */,
+				A3067F56171538BA00FB6E63 /* caca.c in Sources */,
+				A3067F57171538BA00FB6E63 /* caca0.c in Sources */,
+				A3067F58171538BA00FB6E63 /* caca_conio.c in Sources */,
+				A3067F59171538BA00FB6E63 /* canvas.c in Sources */,
+				A3067F5A171538BA00FB6E63 /* charset.c in Sources */,
+				A3067F5B171538BA00FB6E63 /* export.c in Sources */,
+				A3067F5C171538BA00FB6E63 /* import.c in Sources */,
+				A3067F5D171538BA00FB6E63 /* text.c in Sources */,
+				A3067F5E171538BA00FB6E63 /* conic.c in Sources */,
+				A3067F5F171538BA00FB6E63 /* dirty.c in Sources */,
+				A3067F60171538BA00FB6E63 /* dither.c in Sources */,
+				A3067F61171538BA00FB6E63 /* cocoa.m in Sources */,
+				A3067F62171538BA00FB6E63 /* conio.c in Sources */,
+				A3067F63171538BA00FB6E63 /* gl.c in Sources */,
+				A3067F64171538BA00FB6E63 /* ncurses.c in Sources */,
+				A3067F65171538BA00FB6E63 /* null.c in Sources */,
+				A3067F66171538BA00FB6E63 /* raw.c in Sources */,
+				A3067F67171538BA00FB6E63 /* slang.c in Sources */,
+				A3067F68171538BA00FB6E63 /* vga.c in Sources */,
+				A3067F69171538BA00FB6E63 /* win32.c in Sources */,
+				A3067F6A171538BA00FB6E63 /* x11.c in Sources */,
+				A3067F6B171538BA00FB6E63 /* event.c in Sources */,
+				A3067F6C171538BA00FB6E63 /* figfont.c in Sources */,
+				A3067F6D171538BA00FB6E63 /* file.c in Sources */,
+				A3067F6E171538BA00FB6E63 /* font.c in Sources */,
+				A3067F6F171538BA00FB6E63 /* frame.c in Sources */,
+				A3067F70171538BA00FB6E63 /* getopt.c in Sources */,
+				A3067F71171538BA00FB6E63 /* graphics.c in Sources */,
+				A3067F72171538BA00FB6E63 /* legacy.c in Sources */,
+				A3067F73171538BA00FB6E63 /* line.c in Sources */,
+				A3067F76171538BA00FB6E63 /* prof.c in Sources */,
+				A3067F77171538BA00FB6E63 /* string.c in Sources */,
+				A3067F78171538BA00FB6E63 /* time.c in Sources */,
+				A3067F79171538BA00FB6E63 /* transform.c in Sources */,
+				A3067F7A171538BA00FB6E63 /* triangle.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3067F0B1715384600FB6E63 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3067F0C1715384600FB6E63 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3067F1A1715384600FB6E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3067F1B1715384600FB6E63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3067F1D1715384600FB6E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hayCaca/hayCaca-Prefix.pch";
+				INFOPLIST_FILE = "hayCaca/hayCaca-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A3067F1E1715384600FB6E63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hayCaca/hayCaca-Prefix.pch";
+				INFOPLIST_FILE = "hayCaca/hayCaca-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3067EFA1715384500FB6E63 /* Build configuration list for PBXProject "hayCaca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3067F1A1715384600FB6E63 /* Debug */,
+				A3067F1B1715384600FB6E63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3067F1C1715384600FB6E63 /* Build configuration list for PBXNativeTarget "hayCaca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3067F1D1715384600FB6E63 /* Debug */,
+				A3067F1E1715384600FB6E63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3067EF71715384500FB6E63 /* Project object */;
+}
